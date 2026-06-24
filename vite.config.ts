@@ -2,11 +2,6 @@ import path from "node:path";
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
-  tanstackStart: {
-    srcDirectory: "src/components",
-    server: { entry: "server" },
-  },
-
   nitro: {
     preset: "vercel",
   },
